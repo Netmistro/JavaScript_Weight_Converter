@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    background: #333;
+    color: white;
+}
+
+/* Container Styles */
+.container {
+    width: 20rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Card Styles */
+.card {
+    width: 20rem;
+    color: black;
+}
